@@ -1,0 +1,13 @@
+spring:
+  profile: dev
+  data:
+    mongodb:
+      uri: mongodb+srv://tenazatto:Ten46633547@cluster-do-leite-97m8c.mongodb.net/cardapiododia_dev
+
+
+server:
+  port: 8080
+
+logging:
+  level:
+    br.com.cardapiododia: DEBUG
